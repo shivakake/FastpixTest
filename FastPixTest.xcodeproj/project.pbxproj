@@ -15,6 +15,8 @@
 		EA358E512A84BC81000785A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA358E4F2A84BC81000785A1 /* LaunchScreen.storyboard */; };
 		EA358E5C2A84BC82000785A1 /* FastPixTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA358E5B2A84BC82000785A1 /* FastPixTestTests.swift */; };
 		EA358E672A84BC82000785A1 /* FastPixTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA358E662A84BC82000785A1 /* FastPixTestUITests.swift */; };
+		EA358E792A84BCC6000785A1 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA358E772A84BCC6000785A1 /* ListTableViewCell.swift */; };
+		EA358E7A2A84BCC6000785A1 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA358E782A84BCC6000785A1 /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EA358E622A84BC82000785A1 /* FastPixTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastPixTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA358E662A84BC82000785A1 /* FastPixTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastPixTestUITests.swift; sourceTree = "<group>"; };
 		EA358E682A84BC82000785A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA358E772A84BCC6000785A1 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		EA358E782A84BCC6000785A1 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				EA358E442A84BC73000785A1 /* AppDelegate.swift */,
 				EA358E462A84BC73000785A1 /* SceneDelegate.swift */,
 				EA358E482A84BC73000785A1 /* ViewController.swift */,
+				EA358E772A84BCC6000785A1 /* ListTableViewCell.swift */,
+				EA358E782A84BCC6000785A1 /* ListTableViewCell.xib */,
 				EA358E4A2A84BC73000785A1 /* Main.storyboard */,
 				EA358E4D2A84BC81000785A1 /* Assets.xcassets */,
 				EA358E4F2A84BC81000785A1 /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA358E512A84BC81000785A1 /* LaunchScreen.storyboard in Resources */,
+				EA358E7A2A84BCC6000785A1 /* ListTableViewCell.xib in Resources */,
 				EA358E4E2A84BC81000785A1 /* Assets.xcassets in Resources */,
 				EA358E4C2A84BC73000785A1 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA358E492A84BC73000785A1 /* ViewController.swift in Sources */,
+				EA358E792A84BCC6000785A1 /* ListTableViewCell.swift in Sources */,
 				EA358E452A84BC73000785A1 /* AppDelegate.swift in Sources */,
 				EA358E472A84BC73000785A1 /* SceneDelegate.swift in Sources */,
 			);
